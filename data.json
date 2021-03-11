@@ -1,0 +1,47 @@
+let employees = `
+
+  [{
+      "userId": "29893944817",
+      "firstName": "Patrik",
+      "lastName": "Jonathan",
+      "emailAddress": "patrik.k.jonathan@gmail.com",
+      "jobTitle": "Developer",
+      "salary": "2000E"
+  }, {
+        "userId": "29823964877",
+        "firstName": "Tom",
+        "lastName": "Irani",
+        "emailAddress": "tomrirani@gmail.com",
+        "jobTitle": "Analyst",
+        "salary": "2500E"
+  }, {
+        "userId": "25833742117",
+        "firstName": "Tom",
+        "lastName": "Hanks",
+        "emailAddress": "tomhanks@gmail.com",
+        "jobTitle": "Program Directory",
+        "salary": "2530E"
+  }]
+`
+
+let books = `
+
+  [
+    {
+        "title": "Javascript for Dummies",
+        "author": "Dummy Dumb Dumb",
+        "read": "false",
+        "year": "2001",
+        "pages": "304",
+        "price": "20E"
+    },
+    {
+        "title": "50 shades of gray",
+        "author": "Somebody",
+        "read": "true",
+        "year": "2010",
+        "pages": "500",
+        "price": "30E"
+    }
+]
+`

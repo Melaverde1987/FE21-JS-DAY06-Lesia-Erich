@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>JavaScript</title>
+</head>
+
+<body>
+    <div id="result"></div>
+
+
+    <script>
+        var sandwiches = `{ "sandwich": "hamburger", "calories": "260" }`;
+        var fries = `{ "fries_size": "Large French Fries", "calories": "570" }`;
+
+        var sandwichJS = JSON.parse(sandwiches);
+        var friesJS = JSON.parse(fries);
+
+        document.getElementById('result').innerHTML = 'My favorite sandwich is a ' + sandwichJS.sandwich + ' which has approximately ' + sandwichJS.calories + ' calories, along with it I enjoy eating ' + friesJS.fries_size + ' which have about ' + friesJS.calories + ' calories.';
+    </script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
