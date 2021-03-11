@@ -1,0 +1,41 @@
+let carsDB = `
+
+  [
+    {
+        "Id": "001",
+        "brand": "Audi",
+        "type": "A1",
+        "text": "Sporty little car",
+        "km": "40.000",
+        "price": "20000",
+        "image": "https://i.auto-bild.de/mdb/extra_large/65/a1-e91.png"
+    },
+    {
+        "Id": "002",
+        "brand": "BMW",
+        "type": "3 Touring",
+        "text": "Sporty family car",
+        "km": "20.000",
+        "price": "30000",
+        "image": "https://www.riller-schnauck.de/themes/Frontend/BMW/frontend/_public/src/img/modelle/bmw-3er-touring.jpg"
+    },
+    {
+        "Id": "003",
+        "brand": "VW",
+        "type": "Sharan",
+        "text": "Classic family car",
+        "km": "40.000",
+        "price": "50000",
+        "image": "https://www.adac.de/_ext/itr/tests/ADAC40/Autodaten/Bilder/IM03302_1_VW_Sharan_1566x884.jpg"
+    },
+    {
+        "Id": "004",
+        "brand": "Tesla",
+        "type": "Model S",
+        "text": "Electric car",
+        "km": "40.000",
+        "price": "100000",
+        "image": "https://ecomento.de/wp-content/uploads/2020/04/Tesla-Model-S-Geparden-Beschleunigung.jpg"
+    }
+]
+`
