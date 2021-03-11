@@ -43,5 +43,60 @@ let books = `
         "pages": "500",
         "price": "30E"
     }
-]
+  ]
+`
+
+
+let cars = `
+
+  [
+    {
+      "id": 1,
+      "name": "Land Rover <span class='badge bg-my'>New</span>",
+      "year": 1996,
+      "image": "https://specials-images.forbesimg.com/imageserve/5d3703e2f1176b00089761a6/960x0.jpg",
+      "price": "€5389,19",
+      "description": "In congue. Etiam justo. Etiam pretium iaculis justo."
+    },
+    {
+      "id": 2,
+      "name": "Chrysler",
+      "year": 2003,
+      "image": "https://media.wired.com/photos/5d09594a62bcb0c9752779d9/1:1/w_1500,h_1500,c_limit/Transpo_G70_TA-518126.jpg",
+      "price": "€7287,54",
+      "description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+    },
+    {
+      "id": 3,
+      "name": "Subaru",
+      "year": 1991,
+      "image": "https://static.theceomagazine.net/wp-content/uploads/2019/12/12081609/ferrari.jpg",
+      "price": "€4547,08",
+      "description": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum."
+    },
+    {
+      "id": 4,
+      "name": "Cadillac",
+      "year": 2004,
+      "image": "https://cdn.luxe.digital/media/2020/12/15110747/fastest-cars-world-2021-luxe-digital%402x.jpg",
+      "price": "€6539,73",
+      "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.<br>Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis."
+    },
+    {
+      "id": 5,
+      "name": "Cadillac <span class='badge bg-my'>New</span> ",
+      "year": 2009,
+      "image": "https://blog.dupontregistry.com/wp-content/uploads/2021/01/574590-scaled.jpg",
+      "price": "€7670,84",
+      "description": "Fusce consequat. Nulla nisl. Nunc nisl.<br>Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. <br>In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+    },
+    {
+      "id": 6,
+      "name": "Mazda",
+      "year": 1993,
+      "image": "https://robbreport.com/wp-content/uploads/2020/07/6-3.jpg",
+      "price": "€3324,68",
+      "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.<br>Phasellus in felis. Donec semper sapien a libero. Nam dui."
+    }
+  ]
 `
